@@ -1,0 +1,117 @@
+<html>
+    <head>
+       <title>Latihan Form</title> 
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <h3 style="color:darkcyan;">Latihan Form</h3>
+        <table>
+        <form action="#" method="POST">
+            <table> 
+                <tr>
+            <td>Nama :</td>
+            <td> <input type="text" name="first_name" size="50"><br></td>
+                </tr>
+                <tr>
+            <td>Umur : </td>
+                <td><input type="number" number="umur" size="50"><br></td>
+                </tr>
+                <tr>
+            <td>Warna :</td>
+            <td><input type="color" color="color" size="50"><br></td>
+                </tr>
+                <tr>
+            <td>Tanggal :</td>
+            <td> <input type="date" date="Tanggal" size="50"><br></td>
+                </tr>
+                <tr>
+            <td>Email : </td>
+            <td><input type="Email" email="Email" size="50"><br></td>
+                </tr>
+                <tr>
+            <td>File :</td>
+            <td> <input type="File" file="File" size="50"><br></td>
+                </tr>
+                <tr>
+            <td>Hidden :</td>
+            <td><input type="hidden" hidden="Hidden" size="50"><br></td>
+                </tr>
+            <tr>
+            <td>Bulan : </td>
+            <td><input type="Month" month="Month" size="50"><br></td>
+            </tr>
+            <tr>
+            <td>Kata Sandi : </td>
+            <td><input type="password" password="Password" size="50"><br></td>
+            </tr>
+            <tr>
+            <td>Range : </td>
+            <td><input type="Range" range="Range" size="50"><br></td>
+            </tr>
+            <tr>
+            <td>Pencarian : </td>
+            <td><input type="search" search="Search" size="50"><br></td>
+            </tr>
+            <tr>
+            <td>Telepon : </td>
+            <td><input type="number" tel="Tel" size="50"><br></td>
+            </tr>
+            <tr>
+            <td>Jam : </td>
+            <td><input type="Time" time="Time" size="50"><br></td>
+            </tr>
+            <tr>
+            <td>Minggu :</td>
+             <td><input type="Week" week="Week" size="50"><br> </td>
+            </tr>
+            <tr>
+            <td>Hobby : <br></td>
+            <td>
+            <input type="checkbox" name="Hobby[]">Membaca <br> <!--checkbox untuk menyimpan data, contoh 
+            nyimpan data dari data hobby-->
+            <input type="checkbox" name="Hobby[]">Bersepeda <br>
+            <input type="checkbox" name="Hobby[]">Berkebun <br>
+            <input type="checkbox" name="Hobby[]">Lari <br> <!--Array itu yg kolong kotak []-->
+            </td>
+            </tr>
+            <tr>
+            <td>Jenis Kelamin :</td>
+            <td>
+            <input type="radio" name="jenis[]">Laki-Laki <br>
+            <input type="radio" name="jenis[]">Perempuan <br>
+             </td>
+            </tr>
+            <tr>
+            <td>Asal Kota : <br></td>
+            <td>
+                <select name="Kota Asal">
+                <option value="malang">Malang</option><br>
+                <option value="surabaya">Surabaya</option><br>
+                <option value="tangerang">Tangerang</option><br>
+                <option value="jakarta">Jakarta</option><br>
+                <option value="semarang">Semarang</option><br>
+                <option value="bandung">Bandung</option><br>
+            </td>
+            </tr>
+            <tr>
+                <td>Berat badan,Tinggi Badan :</td>
+                <td>
+                    <input type="number" value="Berat">kg<br>
+                    <input type="number" value="Tinggi">cm<br>
+                </td>
+            </tr>
+            </select><br>
+            </tr>
+            <tr>
+            <td>Alamat Lengkap : <br></td>
+            <td>
+                <textarea type="alamat" cols="50" rows="7"></textarea><br>
+            <input type="button" value="KLIK ME!" class="btn klik" onclick="alert('Halo')">
+            <input type="submit" value="Kirim" class="btn kirim">
+            <input type="reset" value="Reset" class="btn reset">
+            </td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html> 
